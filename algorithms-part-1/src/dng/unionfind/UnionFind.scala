@@ -13,7 +13,7 @@ trait UnionFind {
 
   def print() = println(items.mkString("|"))
 
-  def executeUnionFind(): Unit = {
+  def execute(): Unit = {
     union(4, 3);
     union(3, 8);
     union(6, 5);

@@ -13,4 +13,5 @@ case class QuickFind(size: Int) extends UnionFind {
       items.indices.foreach { x => if (items(x) == pValue) items(x) = qValue }
     }
   }
+
 }
